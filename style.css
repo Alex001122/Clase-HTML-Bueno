@@ -131,4 +131,45 @@ a:visited {
 }
 
 
+.main-nav {
+    display: flex;
+    background-color: color;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+    .main-nav__item {
+        color: hsl(0, 0, 12%);
+        text-decoration: none; 
+        font-weight: bold;
+        font-size: 18px;
+
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+    .topbar--bg-black {
+        background-color: black;
+        color: white;
+        padding: 24px; 
+    }
+
+
+    .topbar__log img {
+        max-width: 100px;
+    }
+    
+    .topbar-nav {
+        flex: 1;
+        padding: 0;
+        margin-botton: 0;
+    }
+
+
+
+
 */
