@@ -1,15 +1,104 @@
-/*^Typography*/
+html {
+    font-family: montserrat;
+}
+
 body {
     margin: 0px;
 }
 
-
-html {
-    font-family: Montserrat;
-    color: #1F1F1F;
+.topbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFD4D0;
+    padding: 8px 12px;
 }
 
-/*^Text modifications*/
+nav {
+    align-items: flex-end;
+    padding-top: 20px;
+}
+
+.topbar nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.botton-talk {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+.botones {
+    display: flex;
+    margin-right: 25px; 
+}
+
+
+header {
+    background-color: #FFD4D0;
+    display: flex;;
+}
+
+header h1 {
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header h2 {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+}
+header h2 span {
+    color: #FC3314;
+}
+
+
+
+.hire-bottom {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px solid black;
+
+}
+
+.portfolio-bottom {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 2px solid black;
+}
+
+
+
 
 p {
     font-size: 16px;
@@ -21,25 +110,6 @@ a {
     color: #1F1F1F;
 }
 
-.header-title {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.header-subtitle {
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.hire-anchor{
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.portfolio-anchor{
-    font-size: 16px;
-    font-weight: 700;
-}
 
 .about-title{
     font-size: 36px;
@@ -57,25 +127,6 @@ a {
     font-weight: 700;
 }
 
-
-
-/*Colors*/
-
-.color-text-white{
-    color: white;
-}
-
-.color-text-red{
-    color: #FC3314;
-}
-
-.header {
-    background-color: #FFD4D0;
-}
-
-.top-bar{
-    background-color: #FFD4D0;
-}
 
 
 
